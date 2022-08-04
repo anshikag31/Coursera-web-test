@@ -12,29 +12,39 @@ body{
   width: 100%;
 }
 
-.menu-title{
+.title{
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+#one {
+  background-color: orange;
+} 
+
+#two{
+  background-color: lightblue;
+}
+
+#three{
+  background-color: lightgreen;
 }
 
 .container{
  position: relative;
- top:60px;
- margin: 15px; 
+ top:50px;
+ margin:10px; 
 }
 
 .item{
   position: relative;
-  top: 0;
-  background-color:#999999;
+  background-color:grey;
   margin: 15px;
   padding: 25px;
-  border: 3px solid #000;
+  border: 3px solid black;
 }
 
 .item p{
   margin-top: 18px;
- 
   font-size:100%;
 }
 
@@ -43,25 +53,14 @@ body{
   top:0;
   right: 0px;
   background: green; 
-  padding: 6px 90px;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+  padding: 5px 50px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
-#title-one {
-  background-color: #D59898;
-} 
 
-#title-two{
-  background-color: #C14543;
-}
 
-#title-three{
-  background-color: #E5D198;
-}
-
-/* Simple Responsive Framework. */
-/*------ Desktop ------*/
+/* Desktop */
 @media (min-width: 992px){
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;  
@@ -104,9 +103,7 @@ body{
   }
 
 }
-
-
-/*------ Tablet ------*/
+/* Tablet */
 @media (min-width: 768px) and (max-width: 991px){
   .col-lg-4 {
     width: 50%;
@@ -117,9 +114,7 @@ body{
    float: left;
  }
 }
-
-
-/*------ Mobile ------*/
+/* Mobile */
 @media (max-width: 767px){
   .col-lg-4{
     width: 100%;
